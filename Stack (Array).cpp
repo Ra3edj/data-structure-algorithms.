@@ -80,12 +80,9 @@ public:
 
 
 	void print() {
-		for (int i = top; i >= 0; i--)
-		{
+		for (int i = top; i >= 0; i--){
 			cout << "[" << arr[i] << "]" << endl;
 		}
-		cout << endl;
-
 	}
 };
 
