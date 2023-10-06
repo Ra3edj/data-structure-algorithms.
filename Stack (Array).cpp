@@ -53,12 +53,12 @@ public:
 	}
 
  // to save the element in another variable when you pop it from the stack
-	void pop(T& element)
+	void pop(T& variable)
 	{
 		if (is_empty())
 			cout << "the stack is empty" << endl;
 		else {
-			element = arr[top];
+			variable = arr[top];
 			top--;
 		}
 	}
