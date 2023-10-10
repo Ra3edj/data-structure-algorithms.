@@ -4,3 +4,4 @@
 2)  Stack (Linked List)
 3)  Circular Queue (Array)
 4)  Queue (Linked List)
+5)  Linked List
