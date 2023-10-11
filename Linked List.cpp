@@ -81,14 +81,13 @@ public:
 		else if (length == 1){
 		delete front;
 		back = front = NULL;
-		length--;
 	      }
 		else {
 			node* dlt = front;
 			front = front->next;
 			delete dlt;
-			length--;
 		}
+		length--;
 	}
 
 	void pop_back() {
@@ -98,7 +97,6 @@ public:
 		else if (length == 1) {
 		  delete front;
 		  back = front = NULL;
-		  length--;
 		}
 		else {
 			node* curr = front;
@@ -108,8 +106,8 @@ public:
 			delete back;
 			curr->next = NULL;
 			back = curr;
-			length--;
 		}
+		length--;
 	}
 
 	void pop_element(int element) {
