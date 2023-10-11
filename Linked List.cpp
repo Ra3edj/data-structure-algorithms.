@@ -171,10 +171,16 @@ public:
 	}
 
 	void print() {
-		node* curr = front;
-		while (curr != NULL) {
-			cout << "[" << curr->data << "] ";
-			curr = curr->next;
+		if (is_empty())
+		{
+			cout << "the queue is empty" << endl;
+		}
+		else {
+			node* curr = front;
+			while (curr != NULL) {
+				cout << "[" << curr->data << "] ";
+				curr = curr->next;
+			}
 		}
 	}
 
