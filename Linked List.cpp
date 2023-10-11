@@ -77,7 +77,12 @@ public:
 	void pop_front() {
 		if (is_empty()) {
 			cout << "the queue is empty" << endl;
-		}
+		}	
+		else if (length == 1){
+		delete front;
+		back = front = NULL;
+		length--;
+	      }
 		else {
 			node* dlt = front;
 			front = front->next;
@@ -91,7 +96,9 @@ public:
 			cout << "the queue is empty" << endl;
 		}
 		else if (length == 1) {
-			pop_front();
+		  delete front;
+		  back = front = NULL;
+		  length--;
 		}
 		else {
 			node* curr = front;
