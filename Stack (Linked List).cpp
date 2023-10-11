@@ -71,12 +71,16 @@ public:
 	}
 
 	void print() {
+		if(is_empty()){
+		cout << "the queue is empty" << endl;
+		}
+		else{
 		node* curr = top;
 		while (curr != NULL) {
 				cout << "[" << curr->data << "]" << endl;
 				curr = curr->next;
 		}
-
+	}
 	}
 };
 
