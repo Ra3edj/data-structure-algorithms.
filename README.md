@@ -5,3 +5,4 @@
 3)  Circular Queue (Array)
 4)  Queue (Linked List)
 5)  Linked List
+6)  Doubly Linked List
