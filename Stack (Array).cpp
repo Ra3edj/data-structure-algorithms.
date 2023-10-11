@@ -80,9 +80,14 @@ public:
 
 
 	void print() {
+		if(is_empty()){
+		cout << "the queue is empty" << endl;
+		}
+		else{
 		for (int i = top; i >= 0; i--){
 			cout << "[" << arr[i] << "]" << endl;
 		}
+	}
 	}
 };
 
