@@ -8,4 +8,4 @@
 6)  Doubly Linked List
 7)  Selection Sort
 8)  Bubble Sort
-9)  Selection Sort
+9)  Insertion Sort
