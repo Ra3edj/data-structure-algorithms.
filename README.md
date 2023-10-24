@@ -7,3 +7,4 @@
 5)  Linked List
 6)  Doubly Linked List
 7)  Selection Sort
+8)  Bubble Sort
