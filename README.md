@@ -9,3 +9,6 @@
 7)  Selection Sort
 8)  Bubble Sort
 9)  Insertion Sort
+10)  Merge Sort
+11)  Quick Sort
+12)  Heap Sort
