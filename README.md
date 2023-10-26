@@ -12,3 +12,5 @@
 10)  Merge Sort
 11)  Quick Sort
 12)  Heap Sort
+13)  Linear Search
+14)  Binary Search
