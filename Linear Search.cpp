@@ -21,7 +21,7 @@ int main()
 	int n = sizeof(arr) / sizeof(arr[0]);
 
 	int num;
-	cout << "Enter an Integer :";
+	cout << "enter the number:";
 	cin >> num;
 
 	int r = linear_search(arr, n, num);
